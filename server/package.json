@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "concurrently \"tsc -w\" \"nodemon ./dist/index.js\"",
+    "dev": "pnpm start --recursive --parallel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
