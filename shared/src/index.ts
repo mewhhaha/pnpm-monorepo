@@ -4,3 +4,5 @@ export enum Booper {
   Booper,
   Trooper,
 }
+
+export const x = 'hej';

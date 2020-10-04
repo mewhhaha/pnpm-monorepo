@@ -1,3 +1,3 @@
-import { Booper } from 'shared'
+import { Booper } from 'shared';
 
-console.log("hello booper", Booper.Booper)
+console.log('hello booper', Booper.Booper);

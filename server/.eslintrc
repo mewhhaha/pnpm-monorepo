@@ -1,11 +1,9 @@
 {
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "@typescript-eslint/tslint"],
-  "rules": {
-    "@typescript-eslint/rule-name": "error"
-  }
+  "plugins": ["@typescript-eslint"]
 }
